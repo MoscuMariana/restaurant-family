@@ -6903,3 +6903,11 @@ input[type="checkbox"] {
   width: 200px /* sau orice dimensiune dorești */ !important;
   height: auto /* păstrează proporțiile */ !important;
 }
+
+/* Ascunde imaginea pe dispozitive mobile */
+@media only screen and (max-width: 768px) {
+  .ak-commmon-hero {
+    background-image: none; /* Elimină imaginea de fundal */
+    background-color: transparent; /* Setează un fundal transparent, dacă este necesar */
+  }
+}
